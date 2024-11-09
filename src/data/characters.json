@@ -1,0 +1,54 @@
+{
+    "characters": [
+        {
+            "name": "Crouton Jones",
+            "role": "Hero",
+            "image": "./assets/characters/jones.webp"
+        },
+        {
+            "name": "Frank Silverstein",
+            "role": "Hero",
+            "image": "./assets/characters/frank.webp"
+        },
+        {
+            "name": "Olivia Pitts",
+            "role": "Hero",
+            "image": "./assets/characters/olivia.webp"
+        },
+        {
+            "name": "Co-ookie",
+            "role": "Hero",
+            "image": "./assets/characters/cookie.webp"
+        },
+        {
+            "name": "Mayor Angus",
+            "role": "Hero",
+            "image": "./assets/characters/angus.webp"
+        },
+        {
+            "name": "Brock Lee",
+            "role": "Villian",
+            "image": "./assets/characters/broc.webp"
+        },
+        {
+            "name": "Don Carrotelli",
+            "role": "Villian",
+            "image": "./assets/characters/don.webp"
+        },
+        {
+            "name": "Carlos Elotes",
+            "role": "Villian",
+            "image": "./assets/characters/carlos.webp"
+        },
+        {
+            "name": "Niko Brown",
+            "role": "Villian",
+            "image": "./assets/characters/niko.webp"
+        },
+        {
+            "name": "Fingerling O'Boyle",
+            "role": "Villian",
+            "image": "./assets/characters/boyle.webp"
+        }
+    ]
+}

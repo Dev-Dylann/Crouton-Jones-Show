@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Intro from "./components/Intro"
+import Characters from "./components/Characters"
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
         <Hero />
 
         <Intro />
+
+        <Characters />
       </main>
     </>
   )
