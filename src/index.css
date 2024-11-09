@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .radial-gradient {
+    background: radial-gradient(circle at 50% 20%, transparent 70%, #e8dfca 90%);
+  }
+}
+
+@font-face {
+  font-family: 'Impact';
+  src: url('./assets/fonts/impact.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #0C2150;
+  background-color: #e8dfca;
+}
