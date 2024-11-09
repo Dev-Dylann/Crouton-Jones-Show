@@ -47,9 +47,14 @@ const Tokenomics = () => {
                 className="font-semibold text-center"
             >Dive deep into the economic model driving Crouton Jones adventures on the blockchain. Discover how our tokenomics support the journey through exciting narratives and engaging characters.</motion.p>
 
-            <article className='flex flex-col items-center font-montserrat px-10 py-4'>
+            <motion.article
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ type: 'tween', duration: 0.5 }}
+                viewport={{ once: true }}
+                className='flex flex-col items-center font-montserrat px-10 py-4'>
                 <Doughnut data={data} options={options} />
-            </article>
+            </motion.article>
 
             <motion.button
                 initial={{ opacity: 0, y: 25 }}
