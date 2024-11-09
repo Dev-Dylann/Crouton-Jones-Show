@@ -1,0 +1,28 @@
+{
+    "merchandise": [
+        {
+            "name": "\"Respect It Baby\" Crispy Tee",
+            "image": "./assets/merch/basic-tee.webp",
+            "price": {
+                "usd": 2800,
+                "cjt": null
+            }
+        },
+        {
+            "name": "\"NEED A FIX\" Co-okie Sweater #OnlyHeat",
+            "image": "./assets/merch/fix-tee.webp",
+            "price": {
+                "usd": 3500,
+                "cjt": null
+            }
+        },
+        {
+            "name": "CJT \"Stay Crispy\" Snack Pack",
+            "image": "./assets/merch/backpack.webp",
+            "price": {
+                "usd": 4499,
+                "cjt": null
+            }
+        }
+    ]
+}

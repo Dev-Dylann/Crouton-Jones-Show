@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Intro from "./components/Intro"
 import Characters from "./components/Characters"
 import Tokenomics from "./components/Tokenomics"
+import Merchandise from "./components/Merchandise"
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
         <Characters />
 
         <Tokenomics />
+
+        <Merchandise />
       </main>
     </>
   )
