@@ -5,6 +5,7 @@ import Characters from "./components/Characters"
 import Tokenomics from "./components/Tokenomics"
 import Merchandise from "./components/Merchandise"
 import Roadmap from "./components/Roadmap"
+import Community from "./components/Community"
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
         <Merchandise />
 
         <Roadmap />
+
+        <Community />
       </main>
     </>
   )
