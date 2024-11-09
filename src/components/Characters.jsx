@@ -19,7 +19,7 @@ const Characters = () => {
                 {data.characters.map((character, index) => {
                     character.position = index % 2
 
-                    return (<CharacterCard character={character} />)
+                    return (<CharacterCard key={`character${index}`} character={character} />)
                 })}
             </article>
         </section>
