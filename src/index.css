@@ -8,6 +8,13 @@
   }
 }
 
+@layer components {
+  .heading {
+    -webkit-text-stroke: 1px #0C2150;
+    text-shadow: 2px 2px #0C2150;
+  }
+}
+
 @font-face {
   font-family: 'Impact';
   src: url('./assets/fonts/impact.woff') format('woff2');
