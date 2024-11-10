@@ -2,7 +2,14 @@ import { motion } from "framer-motion"
 
 const CharacterCard = ({ character, setCard, index }) => {
     return (
-        <motion.div onClick={() => setCard(character)} className='flex flex-col'>
+        <motion.div
+            initial={{ opacity: 0, y: 25 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ type: 'tween', duration: 0.5 }}
+            viewport={{ once: true }}
+            onClick={() => setCard(character)}
+            className='flex flex-col'
+        >
             <motion.img src={character.image} alt={character.name} className={`w-[45%] z-[2] ${character.position ? 'self-end' : ''}`} />
 
             <motion.div className={`bg-white font-impact uppercase rounded-lg z-[1] shadow-lg shadow-textColor/50 px-5 py-4 flex flex-col ${character.position ? '' : 'items-end'} -mt-20`}>
