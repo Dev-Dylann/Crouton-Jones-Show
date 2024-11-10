@@ -6,6 +6,7 @@ import Tokenomics from "./components/Tokenomics"
 import Merchandise from "./components/Merchandise"
 import Roadmap from "./components/Roadmap"
 import Community from "./components/Community"
+import Footer from './components/Footer'
 
 function App() {
 
@@ -30,6 +31,10 @@ function App() {
 
         <Community />
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }
