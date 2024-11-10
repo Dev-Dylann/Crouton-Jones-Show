@@ -5,7 +5,7 @@ import banner from "../assets/images/background/banner_front.webp"
 const Hero = () => {
     return (
         <section className='min-h-screen relative flex'>
-            <img src={bgBanner} alt="Banner Background" className='absolute w-full h-full -z-[1]' />
+            <img src={bgBanner} alt="Banner Background" className='absolute w-full h-full -z-[1] object-cover' />
 
             <article className='grow flex flex-col items-center justify-center px-5 pb-10 gap-6 radial-gradient'>
                 <motion.img

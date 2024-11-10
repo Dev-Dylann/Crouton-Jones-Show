@@ -3,52 +3,62 @@
         {
             "name": "Crouton Jones",
             "role": "Hero",
-            "image": "./assets/characters/jones.webp"
+            "image": "./assets/characters/jones.webp",
+            "info": "Crouton Jones is many things, but above all, he's a bad dude. An animated crouton with a burnt-looking Afro, shades, and a mustache, he's the epitome of cool. Dressed in his leather coat and driving gloves, with a retro pistol on his hip, Crouton Jones commands respect and admiration everywhere he goes. \n\nWhether he's making sweet love to the ladies or taking down bad guys, he's always got his Cadillac ready with just the right amount of tint on the windows."
         },
         {
             "name": "Frank Silverstein",
             "role": "Hero",
-            "image": "./assets/characters/frank.webp"
+            "image": "./assets/characters/frank.webp",
+            "info": "Frank Silverstein is a Hebrew National hotdog from Cheddar Heights, and he's got a big personality to match. He's street-smart, witty, and always ready to crack a joke. As a detective, he's got a knack for being resourceful and loyal, and he's Crouton Jones' partner since their rookie days on the police force. And, let's be real, he's a cheapskate."
         },
         {
             "name": "Olivia Pitts",
             "role": "Hero",
-            "image": "./assets/characters/olivia.webp"
+            "image": "./assets/characters/olivia.webp",
+            "info": "Olivia Pitts is a force to be reckoned with. She's a sultry secretary with a sharp mind, a quick wit, and a sass that can knock you off your feet. With her curvaceous figure and impeccable fashion sense, she's the epitome of style and sophistication. But don't let her looks fool you - Olivia's got brains, too. She's efficient, loyal, and always up for a challenge."
         },
         {
             "name": "Co-ookie",
             "role": "Hero",
-            "image": "./assets/characters/cookie.webp"
+            "image": "./assets/characters/cookie.webp",
+            "info": "Ah, yeah, he's Co-okie, the king of the streets, the lord of the snack game, the one and only sugar addict extraordinaire! When he's on the grind, he's a force to be reckoned with - fast-talking, joke-cracking, and always ready to hustle. But when the sugar runs out, watch out, 'cause he turns into a wild card, doin' whatever it takes to get his next fix."
         },
         {
             "name": "Mayor Angus",
             "role": "Hero",
-            "image": "./assets/characters/angus.webp"
+            "image": "./assets/characters/angus.webp",
+            "info": "The esteemed Mayor Angus. A man of the people, a leader of the land, and a force to be reckoned with. The people love him, and he loves the people. He's a master of the game, always staying one step ahead of the competition. His charm and charisma are unwavering, and his political prowess is unmatched. But, let's just say, he has a few... secrets."
         },
         {
             "name": "Brock Lee",
             "role": "Villian",
-            "image": "./assets/characters/broc.webp"
+            "image": "./assets/characters/broc.webp",
+            "info": "Broc Lee, the Vegetable Dragon, a master of Veg-Fu and a force to be reckoned with. His dark green gi and nunchaku are a symbol of his power and his unyielding determination to dominate the vegetable underworld. With a background in the secretive arts of Veg-Fu, he has honed his combat skills to perfection, making him a formidable opponent in any arena."
         },
         {
             "name": "Don Carrotelli",
             "role": "Villian",
-            "image": "./assets/characters/don.webp"
+            "image": "./assets/characters/don.webp",
+            "info": "The great Don Carrotelli, a man of unparalleled cunning and a master of the culinary underworld. His piercing gaze can freeze the blood of his enemies, while his charming smile can disarm even the most skeptical of souls. With a reputation for ruthlessness and a network of loyal followers, Don Carrotelli is the one to be feared and respected."
         },
         {
             "name": "Carlos Elotes",
             "role": "Villian",
-            "image": "./assets/characters/carlos.webp"
+            "image": "./assets/characters/carlos.webp",
+            "info": "Carlos Elotes is the fiery, street-smart leader of Los Serranos, a feared cartel in New Snack City. With a sharp mind and ruthless ambition, he commands a loyal crew and controls the city's underground with violence and fear. Known for his temper and fierce loyalty, Carlos is always looking to expand his influence and stay one step ahead of his enemies."
         },
         {
             "name": "Niko Brown",
             "role": "Villian",
-            "image": "./assets/characters/niko.webp"
+            "image": "./assets/characters/niko.webp",
+            "info": "Niko Brown is the suave yet ruthless leader of the Candy Cash Kings, controlling New Snack City’s sugar trade with charm and brutality. A smooth-talking brownie with a calculated mind, he commands loyalty from his crew and enforces control through fear. Niko’s strategic rise to power and unrelenting ambition make him a dangerous and respected figure in the city’s criminal underworld."
         },
         {
             "name": "Fingerling O'Boyle",
             "role": "Villian",
-            "image": "./assets/characters/boyle.webp"
+            "image": "./assets/characters/boyle.webp",
+            "info": "Fingerling O’Boyle is the cunning and ruthless leader of the Shamrock Syndicate, an Irish gang running the strip clubs and underground casinos of New Snack City. Known for his sharp mind and old-school toughness, he commands loyalty through a mix of charm and brutal enforcement. Fingerling built his empire on vice and violence, making him a dangerous and strategic power player in the city’s criminal underworld."
         }
     ]
 }
