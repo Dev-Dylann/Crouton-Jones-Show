@@ -14,7 +14,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: -25 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ type: 'tween', duration: 0.5 }}
-                    className="w-[85%]"
+                    className="w-[85%] md:w-[75%]"
                 />
 
                 <div className="flex flex-wrap font-impact justify-center items-center gap-4">
@@ -22,14 +22,14 @@ const Hero = () => {
                         initial={{ opacity: 0, x: -25 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ type: 'tween', duration: 0.5 }}
-                        className='uppercase tracking-wider px-4 py-3 bg-primaryBtn rounded-lg shadow-lg shadow-textColor/50 text-sm'
+                        className='uppercase tracking-wider px-4 py-3 bg-primaryBtn rounded-lg shadow-lg shadow-textColor/50 text-sm sm:text-xl sm:tracking-widest'
                     >Explore the whitepaper</motion.button>
 
                     <motion.button
                         initial={{ opacity: 0, x: 25 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ type: 'tween', duration: 0.5 }}
-                        className='uppercase tracking-wider px-4 py-3 bg-white rounded-lg shadow-lg shadow-textColor/50 text-sm'
+                        className='uppercase tracking-wider px-4 py-3 bg-white rounded-lg shadow-lg shadow-textColor/50 text-sm sm:text-xl sm:tracking-widest'
                     >Chat with Crouton</motion.button>
                 </div>
             </article>
