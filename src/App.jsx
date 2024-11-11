@@ -7,6 +7,7 @@ import Merchandise from "./components/Merchandise"
 import Roadmap from "./components/Roadmap"
 import Community from "./components/Community"
 import Footer from './components/Footer'
+import ToTop from "./components/ToTop"
 
 function App() {
 
@@ -30,6 +31,8 @@ function App() {
         <Roadmap />
 
         <Community />
+
+        <ToTop />
       </main>
 
       <footer>
