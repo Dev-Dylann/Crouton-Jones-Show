@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 const Roadmap = () => {
     return (
-        <section className="py-16 px-5 flex flex-col gap-4 bg-[url('./assets/background/background_faded.webp')] bg-cover bg-center bg-fixed">
+        <section className="py-16 px-5 flex flex-col gap-4 bg-[url('/background/background_faded.webp')] bg-cover bg-center bg-fixed">
             <motion.h2
                 initial={{ opacity: 0, y: 25 }}
                 whileInView={{ opacity: 1, y: 0 }}
