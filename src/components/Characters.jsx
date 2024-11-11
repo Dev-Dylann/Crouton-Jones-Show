@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import data from '../data/characters.json'
 import { motion, AnimatePresence } from "framer-motion"
 import CharacterCard from '../ui/CharacterCard'
@@ -6,10 +6,6 @@ import CharacterInfo from './CharacterInfo'
 
 const Characters = () => {
     const [card, setCard] = useState(null)
-
-    useEffect(() => {
-        console.log(card)
-    }, [card])
 
     return (
         <section className="py-12 px-5 flex flex-col gap-6 min-h-screen bg-[url('./background/background_city.webp')] bg-cover bg-center bg-fixed relative">
