@@ -12,7 +12,7 @@ const Characters = () => {
     }, [card])
 
     return (
-        <section className="py-12 px-5 flex flex-col gap-6 min-h-screen bg-[url('./assets/background/background_city.webp')] bg-cover bg-center bg-fixed relative">
+        <section className="py-12 px-5 flex flex-col gap-6 min-h-screen bg-[url('./background/background_city.webp')] bg-cover bg-center bg-fixed relative">
             <div className="absolute w-full h-full top-0 left-0 bg-black/25"></div>
 
             <motion.h2
