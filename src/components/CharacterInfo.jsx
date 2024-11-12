@@ -30,7 +30,7 @@ const CharacterInfo = ({ card, setCard }) => {
                     <XMarkIcon className="h-6 w-6 md:h-10 md:w-10" />
                 </button>
 
-                <h2 className="font-impact font-bold text-primaryBtn text-2xl tracking-widest heading uppercase md:text-5xl">{card.name}</h2>
+                <h2 className="font-impact font-bold text-primaryBtn text-2xl tracking-widest heading uppercase md:text-[40px]">{card.name}</h2>
 
                 <pre className="font-semibold max-w-full font-montserrat text-wrap overflow-y-auto md:text-xl">{card.info}</pre>
 

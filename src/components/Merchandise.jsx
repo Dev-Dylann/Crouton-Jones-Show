@@ -10,7 +10,7 @@ const Merchandise = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ type: 'tween', duration: 0.5 }}
                 viewport={{ once: true }}
-                className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading uppercase md:text-5xl"
+                className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading uppercase md:text-[40px]"
             >Explore Our Merch</motion.h2>
 
             <article

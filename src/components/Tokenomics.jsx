@@ -35,7 +35,7 @@ const Tokenomics = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ type: 'tween', duration: 0.5 }}
                 viewport={{ once: true }}
-                className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading uppercase z-[2] md:text-5xl"
+                className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading uppercase z-[2] md:text-[40px]"
             >Tokenomics</motion.h2>
 
             <motion.p

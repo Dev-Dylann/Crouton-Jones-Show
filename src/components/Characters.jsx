@@ -16,7 +16,7 @@ const Characters = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ type: 'tween', duration: 0.5 }}
                 viewport={{ once: true }}
-                className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading uppercase z-[2] md:text-5xl"
+                className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading uppercase z-[2] md:text-[40px]"
             >Meet Our Characters</motion.h2>
 
             <article className="flex flex-col gap-8 md:gap-12">

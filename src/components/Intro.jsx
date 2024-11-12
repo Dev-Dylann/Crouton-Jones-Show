@@ -9,7 +9,7 @@ const Intro = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ type: 'tween', duration: 0.5 }}
                     viewport={{ once: true }}
-                    className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading md:text-5xl"
+                    className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading md:text-[40px] md:leading-normal"
                 >CROUTON JONES: The Coolest Detective In New Snack City</motion.h2>
 
                 <motion.p
@@ -38,7 +38,7 @@ const Intro = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ type: 'tween', duration: 0.5 }}
                     viewport={{ once: true }}
-                    className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading uppercase md:text-5xl"
+                    className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading uppercase md:text-[40px]"
                 >About Us</motion.h2>
 
                 <motion.p
