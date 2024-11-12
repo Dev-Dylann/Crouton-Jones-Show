@@ -26,7 +26,7 @@ const ToTop = () => {
     };
 
     return (
-        <button onClick={scrollToTop} className={`p-4 rounded-full bg-primaryBtn shadow-lg shadow-textColor/50 fixed bottom-5 right-5 transition-all z-[99] ${isVisible ? 'opacity-1' : 'opacity-0'}`}>
+        <button onClick={scrollToTop} className={`p-4 rounded-full bg-primaryBtn shadow-lg shadow-textColor/50 fixed bottom-5 right-5 transition-all z-[99] ${isVisible ? 'opacity-1' : 'opacity-0'} md:bottom-8 md:right-8`}>
             <ChevronDoubleUpIcon className="h-6 w-6" />
         </button>
     )
