@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 
 const Footer = () => {
     return (
-        <section className="py-16 px-5 flex flex-col items-center gap-10">
+        <section className="py-16 px-5 flex flex-col items-center gap-10 md:px-8 md:py-24">
             <motion.img
                 src={logo}
                 alt="Crouton Jones Logo"
@@ -20,7 +20,7 @@ const Footer = () => {
                 viewport={{ once: true }}
             />
 
-            <nav className="flex flex-col gap-4 font-impact tracking-wider text-lg text-center uppercase">
+            <nav className="flex flex-col gap-4 font-impact tracking-wider text-lg text-center uppercase md:text-xl">
                 <motion.ul
                     initial={{ opacity: 0, y: 25 }}
                     whileInView={{ opacity: 1, y: 0 }}
