@@ -7,14 +7,14 @@ const Hero = () => {
         <section className='min-h-screen relative flex'>
             <img src={bgBanner} alt="Banner Background" className='absolute w-full h-full -z-[1] object-cover' />
 
-            <article className='grow flex flex-col items-center justify-center px-5 pb-10 gap-6 radial-gradient'>
+            <article className='grow flex flex-col items-center justify-center px-5 pb-10 gap-6 radial-gradient sm:pb-0 md:pb-10'>
                 <motion.img
                     src={banner}
                     alt="Crouton Jones Banner"
                     initial={{ opacity: 0, y: -25 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ type: 'tween', duration: 0.5 }}
-                    className="w-[85%] md:w-[75%]"
+                    className="w-[85%] sm:w-[70%] md:w-[75%]"
                 />
 
                 <div className="flex flex-wrap font-impact justify-center items-center gap-4">
