@@ -21,7 +21,6 @@ const Tokenomics = () => {
     }
 
     const options = {
-        responsive: true,
         plugins: {
             tooltip: {
                 enabled: true,
@@ -52,7 +51,7 @@ const Tokenomics = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ type: 'tween', duration: 0.5 }}
                 viewport={{ once: true }}
-                className='flex flex-col items-center font-montserrat px-10 py-4 md:py-8'>
+                className='flex flex-col items-center font-montserrat px-10 py-4 sm:w-[65%] sm:mx-auto'>
                 <Doughnut data={data} options={options} />
             </motion.article>
 

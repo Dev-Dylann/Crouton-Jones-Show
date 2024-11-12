@@ -7,7 +7,7 @@ const Hero = () => {
         <section className='min-h-screen relative flex'>
             <img src={bgBanner} alt="Banner Background" className='absolute w-full h-full -z-[1] object-cover' />
 
-            <article className='grow flex flex-col items-center justify-center px-5 pb-10 gap-6 radial-gradient sm:pb-0 md:pb-10'>
+            <article className='grow flex flex-col items-center justify-center px-5 pb-10 gap-6 radial-gradient sm:radial-gradient-sm sm:pb-0 md:pb-10 md:radial-gradient'>
                 <motion.img
                     src={banner}
                     alt="Crouton Jones Banner"

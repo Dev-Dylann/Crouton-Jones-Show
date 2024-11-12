@@ -6,6 +6,10 @@
   .radial-gradient {
     background: radial-gradient(circle at 50% 20%, transparent 70%, #e8dfca 90%);
   }
+
+  .radial-gradient-sm {
+    background: radial-gradient(circle at 50% 1%, transparent 70%, #e8dfca 90%);
+  }
 }
 
 @layer components {
