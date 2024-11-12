@@ -10,12 +10,20 @@
   .radial-gradient-sm {
     background: radial-gradient(circle at 50% 1%, transparent 70%, #e8dfca 90%);
   }
+
+  .normal-gradient {
+    background: linear-gradient(to bottom, transparent 70%, #e8dfca)
+  }
 }
 
 @layer components {
   .heading {
     -webkit-text-stroke: 1px #0C2150;
     text-shadow: 2px 2px #0C2150;
+  }
+
+  .hover-link {
+    @apply hover:text-primaryBtn transition-all
   }
 }
 

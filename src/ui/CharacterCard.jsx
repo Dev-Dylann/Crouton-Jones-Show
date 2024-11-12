@@ -8,7 +8,7 @@ const CharacterCard = ({ character, setCard }) => {
             transition={{ type: 'tween', duration: 0.5 }}
             viewport={{ once: true }}
             onClick={() => setCard(character)}
-            className='flex flex-col'
+            className='flex flex-col cursor-pointer'
         >
             <motion.img src={character.image} alt={character.name} className={`w-[45%] z-[2] ${character.position ? 'self-end' : ''} md:w-[30%]`} />
 

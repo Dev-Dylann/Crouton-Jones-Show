@@ -10,10 +10,10 @@ const Header = () => {
     return (
         <section className='flex items-center p-5 justify-between md:p-8'>
             <button onClick={() => setIsOpen(true)}>
-                <Bars3Icon className="h-8 w-8 md:h-12 md:w-12" />
+                <Bars3Icon className="h-8 w-8 md:h-12 md:w-12 hover:text-primaryBtn tramsition-all" />
             </button>
 
-            <img src={logo} alt="Crouton Jones Logo" className="w-[35%] z-[99] md:w-[40%]" />
+            <img src={logo} alt="Crouton Jones Logo" className="w-[35%] z-[99] md:w-[40%] lg:w-[30%]" />
 
             <button className="invisible">
                 <Bars3Icon className="h-8 w-8 md:h-12 md:w-12" />
