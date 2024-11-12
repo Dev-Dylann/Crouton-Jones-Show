@@ -32,7 +32,7 @@ const CharacterInfo = ({ card, setCard }) => {
 
                 <h2 className="font-impact font-bold text-primaryBtn text-2xl tracking-widest heading uppercase md:text-5xl">{card.name}</h2>
 
-                <pre className="font-semibold max-w-full font-montserrat text-wrap overflow-y-scroll md:text-xl">{card.info}</pre>
+                <pre className="font-semibold max-w-full font-montserrat text-wrap overflow-y-auto md:text-xl">{card.info}</pre>
 
                 <div className="flex justify-center gap-4 items-center md:gap-8">
                     <button

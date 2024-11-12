@@ -14,7 +14,7 @@ const Merchandise = () => {
             >Explore Our Merch</motion.h2>
 
             <article
-                className="flex flex-col gap-10 p-5 md:gap-12 md:p-8 md:grid md:grid-cols-2"
+                className="flex flex-col gap-10 p-5 sm:gap-12 sm:p-8 sm:grid sm:grid-cols-2"
             >
                 {data.merchandise.map((merch, index) => (
                     <MerchCard key={`merch${index}`} merch={merch} />
