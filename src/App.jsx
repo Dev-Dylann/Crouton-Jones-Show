@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <header className="absolute top-0 left-0 w-full z-[99]" >
+      <header className="absolute top-0 left-0 w-full z-[99] bg-gradient-to-b from-bgColor from-35% to-transparent" >
         <Header />
       </header>
 

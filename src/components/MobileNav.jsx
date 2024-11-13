@@ -24,7 +24,7 @@ const MobileNav = ({ setIsOpen }) => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: '-100%' }}
             transition={{ type: 'tween', duration: 0.25 }}
-            className='font-impact bg-black/50 backdrop-blur fixed top-0 left-0 h-full w-full z-[80] flex flex-col'
+            className='font-impact bg-black/50 backdrop-blur fixed top-0 left-0 h-full w-full z-[80] flex flex-col lg:hidden'
         >
             <nav className="flex flex-col gap-16 px-5 py-8 w-[70%] bg-bgColor grow uppercase md:px-8 md:py-16 md:w-[50%] md:max-w-sm lg:px-12">
                 <button onClick={() => setIsOpen(false)} className="hover-link">
