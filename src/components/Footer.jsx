@@ -66,10 +66,10 @@ const Footer = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ type: 'tween', duration: 0.5 }}
                     viewport={{ once: true }}
-                    className="uppercase font-impact text-lg text-center tracking-widest font-bold lg:text-sm lg:text-left"
+                    className="uppercase font-impact text-lg text-center tracking-widest font-bold lg:text-sm"
                 >Follow Our Social Media</motion.p>
 
-                <div className="flex items-center justify-center flex-wrap gap-2 lg:justify-start">
+                <div className="flex items-center justify-center flex-wrap gap-2">
                     <motion.button
                         initial={{ opacity: 0, y: 25 }}
                         whileInView={{ opacity: 1, y: 0 }}
