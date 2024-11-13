@@ -8,8 +8,8 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <section className='flex items-center p-5 justify-between md:p-8'>
-            <button onClick={() => setIsOpen(true)}>
+        <section className='flex items-center p-5 justify-between md:p-8 lg:px-12'>
+            <button onClick={() => setIsOpen(true)} className="rounded-lg bg-bgColor">
                 <Bars3Icon className="h-8 w-8 md:h-12 md:w-12 hover:text-primaryBtn tramsition-all" />
             </button>
 

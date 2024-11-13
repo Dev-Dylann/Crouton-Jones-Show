@@ -26,7 +26,7 @@ const MobileNav = ({ setIsOpen }) => {
             transition={{ type: 'tween', duration: 0.25 }}
             className='font-impact bg-black/50 backdrop-blur fixed top-0 left-0 h-full w-full z-[80] flex flex-col'
         >
-            <nav className="flex flex-col gap-16 px-5 py-8 w-[70%] bg-bgColor grow uppercase md:px-8 md:py-16 md:w-[50%] md:max-w-sm">
+            <nav className="flex flex-col gap-16 px-5 py-8 w-[70%] bg-bgColor grow uppercase md:px-8 md:py-16 md:w-[50%] md:max-w-sm lg:px-12">
                 <button onClick={() => setIsOpen(false)} className="hover-link">
                     <XMarkIcon className='h-8 w-8 md:h-12 md:w-12' />
                 </button>

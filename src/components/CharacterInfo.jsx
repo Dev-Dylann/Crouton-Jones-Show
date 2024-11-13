@@ -8,14 +8,14 @@ const CharacterInfo = ({ card, setCard }) => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ type: 'tween', duration: 0.25 }}
-            className='fixed top-0 left-0 w-full h-full bg-black/50 backdrop-blur z-[99] flex items-center justify-center p-5 md:p-8'
+            className='fixed top-0 left-0 w-full h-full bg-black/50 backdrop-blur z-[99] flex items-center justify-center p-5 md:p-8 lg:pt-28'
         >
             <motion.article
                 initial={{ opacity: 0, scale: 0.75 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.75 }}
                 transition={{ type: 'tween', duration: 0.25 }}
-                className="flex flex-col bg-bgColor p-5 pt-12 rounded-lg shadow-lg shadow-textColor/50 w-full gap-4 relative max-h-[65%] md:p-8 md:pt-16 md:gap-8"
+                className="flex flex-col bg-bgColor p-5 pt-12 rounded-lg shadow-lg shadow-textColor/50 w-full gap-4 relative max-h-[65%] md:p-8 md:pt-16 md:gap-8 lg:w-[65%] lg:max-h-[75%]"
             >
                 <motion.img
                     src={card.image}
@@ -24,7 +24,7 @@ const CharacterInfo = ({ card, setCard }) => {
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: 25, opacity: 0 }}
                     transition={{ type: "spring", duration: 0.25, delay: 0.25 }}
-                    className="absolute -top-28 left-0 w-[45%] h-auto -z-[1] opacity-0 md:w-[30%] md:-top-40"
+                    className="absolute -top-28 left-0 w-[45%] h-auto -z-[1] opacity-0 md:w-[30%] md:-top-40 lg:-top-28"
                 />
                 <button onClick={() => setCard(null)} className='p-4 z-[2] absolute right-2 top-2' >
                     <XMarkIcon className="h-6 w-6 md:h-10 md:w-10" />

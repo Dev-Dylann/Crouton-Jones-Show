@@ -2,14 +2,14 @@ import { motion } from "framer-motion"
 
 const Intro = () => {
     return (
-        <section className="py-16 px-5 flex flex-col items-center gap-10 md:py-28 md:px-8" >
-            <article className='flex flex-col gap-4 md:gap-8'>
+        <section className="py-16 px-5 flex flex-col items-center gap-10 md:py-28 md:px-8 lg:px-12 lg:gap-28" >
+            <article className='flex flex-col gap-4 md:gap-8 lg:grid lg:grid-cols-2 lg:gap-y-4'>
                 <motion.h2
                     initial={{ opacity: 0, y: 25 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ type: 'tween', duration: 0.5 }}
                     viewport={{ once: true }}
-                    className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading md:text-[40px] md:leading-normal"
+                    className="font-impact font-bold text-primaryBtn text-2xl text-center tracking-widest heading md:text-[40px] md:leading-normal lg:col-span-full"
                 >CROUTON JONES: The Coolest Detective In New Snack City</motion.h2>
 
                 <motion.p
@@ -17,7 +17,7 @@ const Intro = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ type: 'tween', duration: 0.5 }}
                     viewport={{ once: true }}
-                    className="font-semibold text-center md:text-xl"
+                    className="font-semibold text-center md:text-xl lg:text-left lg:place-content-center"
                 >Get ready to dive into the smoothest, most action-packed adventure in New Snack City! Watch Crouton Jones, the fearless detective with style, wit, and his iconic catchphrase, "Respect it, baby!" as he battles the city's most notorious crime families. This is just a taste of what's to come in the Croutonverse. Stay tuned, baby!</motion.p>
 
                 <motion.video
@@ -26,7 +26,7 @@ const Intro = () => {
                     transition={{ type: 'tween', duration: 0.5 }}
                     viewport={{ once: true }}
                     controls
-                    className="py-4 md:py-8 md:w-[85%] md:mx-auto"
+                    className="py-4 md:py-8 md:w-[85%] md:mx-auto lg:py-0"
                 >
                     <source src="./assets/teaser.mp4" type="video/mp4" />
                 </motion.video>
