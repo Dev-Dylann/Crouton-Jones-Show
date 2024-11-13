@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 
 const Footer = () => {
     return (
-        <section className="py-16 px-5 flex flex-col items-center gap-10 md:px-8 md:py-24 lg:px-12 lg:grid lg:grid-cols-3 lg:gap-x-0 lg:gap-y-16">
+        <section className="py-16 px-5 flex flex-col items-center gap-10 md:px-8 md:py-24 lg:px-12 lg:grid lg:grid-cols-3 lg:gap-x-0 lg:gap-y-16 xl:gap-x-28">
             <motion.img
                 src={logo}
                 alt="Crouton Jones Logo"
@@ -20,7 +20,7 @@ const Footer = () => {
                 viewport={{ once: true }}
             />
 
-            <nav className="flex flex-col gap-4 font-impact tracking-wider text-lg text-center uppercase md:text-xl lg:flex-row lg:text-left lg:col-span-2 lg:pt-8 lg:gap-20 lg:row-span-2 lg:place-self-start lg:justify-end lg:w-full">
+            <nav className="flex flex-col gap-4 font-impact tracking-wider text-lg text-center uppercase md:text-xl lg:flex-row lg:text-left lg:col-span-2 lg:pt-8 lg:gap-20 lg:row-span-2 lg:place-self-start lg:justify-end lg:w-full xl:justify-start xl:w-fit">
                 <motion.ul
                     initial={{ opacity: 0, y: 25 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -28,9 +28,9 @@ const Footer = () => {
                     viewport={{ once: true }}
                     className="flex flex-col gap-1 lg:gap-4"
                 >
-                    <li>Roadmap</li>
-                    <li>Characters</li>
-                    <li>Memes</li>
+                    <li className="hpver-link transition-all">Roadmap</li>
+                    <li className="hpver-link transition-all">Characters</li>
+                    <li className="hpver-link transition-all">Memes</li>
                 </motion.ul>
 
                 <motion.ul
@@ -40,9 +40,9 @@ const Footer = () => {
                     viewport={{ once: true }}
                     className="flex flex-col gap-1 lg:gap-4"
                 >
-                    <li>Comic</li>
-                    <li>Merch</li>
-                    <li>About Us</li>
+                    <li className="hpver-link transition-all">Comic</li>
+                    <li className="hpver-link transition-all">Merch</li>
+                    <li className="hpver-link transition-all">About Us</li>
                 </motion.ul>
 
                 <motion.ul
@@ -52,9 +52,9 @@ const Footer = () => {
                     viewport={{ once: true }}
                     className="flex flex-col gap-1 lg:gap-4"
                 >
-                    <li>Contact Us</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
+                    <li className="hpver-link transition-all">Contact Us</li>
+                    <li className="hpver-link transition-all">Privacy Policy</li>
+                    <li className="hpver-link transition-all">Terms & Conditions</li>
                 </motion.ul>
             </nav>
 

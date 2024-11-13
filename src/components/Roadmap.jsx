@@ -12,12 +12,7 @@ const Roadmap = () => {
             >The Crouton Jones Journey</motion.h2>
 
             <article className="flex flex-col gap-28 relative my-5 md:gap-36 lg:gap-20">
-                <div className="absolute h-full w-1.5 bg-white z-[1] inset-0 mx-auto lg:flex lg:flex-col lg:items-center lg:pt-24 lg:gap-64">
-                    <div className="hidden lg:block bg-white w-10 h-10 rounded-full relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:rounded-full before:bg-white before:animate-ping"></div>
-                    <div className="hidden lg:block bg-white w-10 h-10 rounded-full relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:rounded-full before:bg-white before:animate-ping"></div>
-                    <div className="hidden lg:block bg-white w-10 h-10 rounded-full relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:rounded-full before:bg-white before:animate-ping"></div>
-                    <div className="hidden lg:block bg-white w-10 h-10 rounded-full relative before:absolute before:top-0 before:left-0 before:h-full before:w-full before:rounded-full before:bg-white before:animate-ping"></div>
-                </div>
+                <div className="absolute h-full w-1.5 bg-white z-[1] inset-0 mx-auto"></div>
 
                 <motion.div
                     initial={{ opacity: 0, y: 25 }}
@@ -68,6 +63,10 @@ const Roadmap = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ type: 'tween', duration: 0.5 }}
                     viewport={{ once: true }}
+                    whileHover={{
+                        scale: 1.05,
+                        transition: { duration: 0.35 },
+                    }}
                     className='uppercase font-impact tracking-widest text-lg px-6 py-3 bg-primaryBtn rounded-lg shadow-lg shadow-textColor/50 font-bold w-fit self-center z-[2] md:text-2xl'
                 >See Full Roadmap</motion.button>
             </article>
