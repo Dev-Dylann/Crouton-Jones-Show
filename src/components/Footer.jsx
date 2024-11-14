@@ -28,9 +28,9 @@ const Footer = () => {
                     viewport={{ once: true }}
                     className="flex flex-col gap-1 lg:gap-4"
                 >
-                    <li className="hpver-link transition-all">Roadmap</li>
-                    <li className="hpver-link transition-all">Characters</li>
-                    <li className="hpver-link transition-all">Memes</li>
+                    <li className="hover-link transition-all cursor-pointer">Roadmap</li>
+                    <li className="hover-link transition-all cursor-pointer">Characters</li>
+                    <li className="hover-link transition-all cursor-pointer">Memes</li>
                 </motion.ul>
 
                 <motion.ul
@@ -40,9 +40,9 @@ const Footer = () => {
                     viewport={{ once: true }}
                     className="flex flex-col gap-1 lg:gap-4"
                 >
-                    <li className="hpver-link transition-all">Comic</li>
-                    <li className="hpver-link transition-all">Merch</li>
-                    <li className="hpver-link transition-all">About Us</li>
+                    <li className="hover-link transition-all cursor-pointer">Comic</li>
+                    <li className="hover-link transition-all cursor-pointer">Merch</li>
+                    <li className="hover-link transition-all cursor-pointer">About Us</li>
                 </motion.ul>
 
                 <motion.ul
@@ -52,9 +52,9 @@ const Footer = () => {
                     viewport={{ once: true }}
                     className="flex flex-col gap-1 lg:gap-4"
                 >
-                    <li className="hpver-link transition-all">Contact Us</li>
-                    <li className="hpver-link transition-all">Privacy Policy</li>
-                    <li className="hpver-link transition-all">Terms & Conditions</li>
+                    <li className="hover-link transition-all cursor-pointer">Contact Us</li>
+                    <li className="hover-link transition-all cursor-pointer">Privacy Policy</li>
+                    <li className="hover-link transition-all cursor-pointer">Terms & Conditions</li>
                 </motion.ul>
             </nav>
 
