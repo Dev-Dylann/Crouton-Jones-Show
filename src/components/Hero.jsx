@@ -1,4 +1,5 @@
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
+import { motion } from "motion/react"
 import bgBanner from "../assets/images/background/background_road.webp"
 import banner from "../assets/images/background/banner_front.webp"
 import bgBannerDesktop from "../assets/images/background/banner_background.webp"

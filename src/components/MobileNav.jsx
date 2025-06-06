@@ -1,5 +1,6 @@
 import { XMarkIcon } from "@heroicons/react/24/solid"
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
+import { motion } from "motion/react"
 
 const MobileNav = ({ setIsOpen }) => {
     const container = {
@@ -7,15 +8,15 @@ const MobileNav = ({ setIsOpen }) => {
         show: {
             opacity: 1,
             transition: {
-                delayChildren: 0.15,
+                delayChildren: 0.1,
                 staggerChildren: 0.1,
             }
         }
     }
 
     const item = {
-        hidden: { opacity: 0, x: -25 },
-        show: { opacity: 1, x: 0 }
+        hidden: { opacity: 0 },
+        show: { opacity: 1 }
     }
 
     return (

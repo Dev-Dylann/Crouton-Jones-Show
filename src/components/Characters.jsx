@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import data from '../data/characters.json'
-import { motion, AnimatePresence } from "framer-motion"
+// import { motion, AnimatePresence } from "framer-motion"
+import { motion, AnimatePresence } from 'motion/react'
 import CharacterCard from '../ui/CharacterCard'
 import CharacterInfo from './CharacterInfo'
 

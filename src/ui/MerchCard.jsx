@@ -1,5 +1,6 @@
 import { CircleStackIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid"
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
+import { motion } from "motion/react"
 
 const MerchCard = ({ merch }) => {
     return (

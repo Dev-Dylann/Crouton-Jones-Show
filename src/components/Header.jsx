@@ -1,7 +1,8 @@
 import { useState } from "react"
 import { Bars3Icon } from "@heroicons/react/24/solid"
 import logo from '../assets/images/logo.webp'
-import { AnimatePresence } from "framer-motion"
+// import { AnimatePresence } from "framer-motion"
+import { AnimatePresence } from "motion/react"
 import MobileNav from "./MobileNav"
 
 const Header = () => {
@@ -32,7 +33,7 @@ const Header = () => {
             </nav>
 
             <AnimatePresence>
-                {isOpen && <MobileNav setIsOpen={setIsOpen} />}
+                {isOpen && <MobileNav key={"mobile nav"} setIsOpen={setIsOpen} />}
             </AnimatePresence>
         </section>
     )

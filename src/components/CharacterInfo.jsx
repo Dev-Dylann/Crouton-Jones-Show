@@ -1,4 +1,5 @@
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
+import { motion } from "motion/react"
 import { XMarkIcon } from '@heroicons/react/24/solid'
 
 const CharacterInfo = ({ card, setCard }) => {
