@@ -5,7 +5,8 @@ import twitter from "../assets/images/icons/twitter.png"
 import youtube from "../assets/images/icons/youtube.png"
 import instagram from "../assets/images/icons/instagram.png"
 import tiktok from "../assets/images/icons/tiktok.png"
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
+import { motion } from "motion/react"
 
 const Footer = () => {
     return (

@@ -9,8 +9,11 @@ const Characters = () => {
     const [card, setCard] = useState(null)
 
     return (
-        <section className="py-12 px-5 flex flex-col gap-6 min-h-screen bg-[url('./background/background_city.webp')] bg-cover bg-center bg-fixed relative md:py-28 md:px-8 md:gap-10 lg:px-12 lg:gap-16">
-            <div className="absolute w-full h-full top-0 left-0 bg-black/25"></div>
+        <section className="py-12 px-5 flex flex-col gap-6 min-h-screen bg-fixed relative md:py-28 md:px-8 md:gap-10 lg:px-12 lg:gap-16">
+            <div className='absolute inset-0 z-0'>
+                <div className="sticky top-0 w-full h-screen bg-[url(./assets/background/background_city.webp)] bg-cover bg-center will-change-transform transform-gpu">
+                    <div className='h-full w-full bg-black/25'></div></div>
+            </div>
 
             <motion.h2
                 initial={{ opacity: 0, y: 25 }}

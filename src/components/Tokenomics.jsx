@@ -7,16 +7,37 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 ChartJS.defaults.font.family = 'Montserrat';
 ChartJS.defaults.color = '#0C2150';
+ChartJS.defaults.font.size = 9;
 
 const Tokenomics = () => {
     const data = {
-        labels: ['Liquidity Pool', 'Community Rewards', 'Burn Wallet', 'Team Wallet'],
+        labels: ['Development Fund', 'Circulating Supply at Launch', 'Staking and Rewards', 'Marketing and Partnerships', 'Team and Advisors', 'CEXS and Market Making', 'Liquidity Management', 'Reserve Fund', 'Content Creation Hub'],
         datasets: [
             {
-                label: 'Crouton Jones Tokenomics',
-                data: [0, 100, 0, 0],
-                backgroundColor: ['#EDBF2D', '#fe6565', '#0C2150', '#984E34'],
-                hoverBackgroundColor: ['#EDBF2D', '#fe6565', '#0C2150', '#984E34'],
+                label: '% of supply',
+                data: [20, 15, 15, 15, 10, 10, 5, 5, 5],
+                backgroundColor: [
+                    '#EDBF2D',
+                    '#FE6565',
+                    '#0C2150',
+                    '#984E34',
+                    '#4CB944',
+                    '#3BAFDA',
+                    '#E67300',
+                    '#A63FA4',
+                    '#FF9FB6'
+                ],
+                hoverBackgroundColor: [
+                    '#EDBF2D',
+                    '#FE6565',
+                    '#0C2150',
+                    '#984E34',
+                    '#4CB944',
+                    '#3BAFDA',
+                    '#E67300',
+                    '#A63FA4',
+                    '#FF9FB6'
+                ],
             }
         ]
     }
