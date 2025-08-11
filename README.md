@@ -38,7 +38,7 @@ My redesign vs orignal design
 
 ## 📌 Notes
 - This is **not the official website** of Crouton Jones Show — it is a **personal redesign project** for learning, portfolio showcase, and creative practice.
-- All branding assets belong to **[Crouton Jones]** and are used here under fair use for demonstration purposes.
+- All branding assets belong to **Crouton Jones** and are used here under fair use for demonstration purposes.
 
 ---
 
