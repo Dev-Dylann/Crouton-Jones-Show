@@ -6,7 +6,7 @@ import jonesLeather from '../assets/images/jones-leather.webp'
 
 const Community = () => {
     return (
-        <section className="px-5 pt-16 pb-60 flex flex-col gap-4 bg-primaryBtn bg-[url('./assets/background/scratches.webp')] bg-cover bg-center relative md:px-8 sm:py-16 lg:px-12 lg:grid lg:grid-cols-2">
+        <section className="px-5 pt-16 pb-60 flex flex-col gap-4 bg-primaryBtn bg-[url('/assets/background/scratches.webp')] bg-cover bg-center relative md:px-8 sm:py-16 lg:px-12 lg:grid lg:grid-cols-2">
             <motion.h2
                 initial={{ opacity: 0, y: 25 }}
                 whileInView={{ opacity: 1, y: 0 }}
