@@ -4,7 +4,7 @@ This project is a complete redesign of the official website for **Crouton Jones 
 The goal was to modernize the look, improve usability, and make the brand identity stand out, while keeping the content and community spirit intact.
 
 ## 📸 Preview
-![Website Screenshot](./screenshot.png)  
+![Website Screenshot](/screenshot.png)  
 
 ---
 
