@@ -4,11 +4,11 @@ This project is a complete redesign of the official website for **Crouton Jones 
 The goal was to modernize the look, improve usability, and make the brand identity stand out, while keeping the content and community spirit intact.
 
 ## 📸 Preview
-![Website Screenshot](https://croutonjonesshow.netlify.app/screenshot.png) 
 <p align="center">
   <img src="https://croutonjonesshow.netlify.app/screenshot.png" alt="My Redesign" width="45%">
   <img src="https://croutonjonesshow.netlify.app/screenshot2.png" alt="Original Design" width="45%">
 </p>
+My redesign vs orignal design
 
 ---
 
