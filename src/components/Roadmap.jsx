@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 
 const Roadmap = () => {
     return (
-        <section className="py-16 px-5 flex flex-col gap-4 bg-[url('./assets/background/background_faded.webp')] bg-cover bg-center bg-fixed md:py-28 md:px-8 lg:px-12 lg:bg-bottom">
+        <section className="py-16 px-5 flex flex-col gap-4 bg-[url('/assets/background/background_faded.webp')] bg-cover bg-center bg-fixed md:py-28 md:px-8 lg:px-12 lg:bg-bottom">
             <motion.h2
                 initial={{ opacity: 0, y: 25 }}
                 whileInView={{ opacity: 1, y: 0 }}
